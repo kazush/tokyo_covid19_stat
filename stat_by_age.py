@@ -105,7 +105,7 @@ def main():
     fig.add_bar(x=st.cases.index,
                 y=st.cases['Cases'],
                 name='Raw Total',
-                marker=dict(color='#dddddd'))
+                marker=dict(color='gray'))
     py.plot(fig, filename=title, auto_open=False)
 
 
